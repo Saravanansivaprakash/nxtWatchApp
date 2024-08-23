@@ -26,7 +26,7 @@ const apiStatusConstants = {
   inProgress: 'IN_PROGRESS',
 }
 
-class TrendingVideos extends Component {
+class Trending extends Component {
   state = {
     trendingVideos: [],
     apiStatus: apiStatusConstants.initial,
@@ -135,4 +135,4 @@ class TrendingVideos extends Component {
   }
 }
 
-export default TrendingVideos
+export default Trending
